@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegance - Orçamentos</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/janelaFolha.css"> <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <link rel="icon" href="../img/Logo1.png" type="image/png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-logo" href="#">
+      <img class="logo" src="../img/Logo1.png" width="60" height="60" alt="logo nav">
+    </a>
+    <a class="navbar-brand" href="#"></a>
+    <li class="nav-item">
+      <a class="text-white" href="escolha.html">Home</a>
+    </li>
+    <div class="collapse navbar-collapse" id="cabeçalho">
+      <ul class="navbar-nav ms-auto mb-2">
+        <li class="nav-item">
+          <a class="text-white" href="boxescolha.html">Box</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-white" href="janela.html">Janela</a>
+        </li>
+        <li class="nav-item">
+          <a class="text-white"
+            href="espelhos.html">Espelhos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <header class="">
+    <h1>PREENCHA AS INFORMAÇÕES</h1>
+    <h4 class="display-6">Por favor, preencha as informações e enviaremos o pedido em pouco tempo.</h4>
+  </header>
+  <br>
+  <main class="container ms-auto">
+
+    <div class="row">
+      <div class="col-md-6">
+
+        <div class="row">
+
+          <div class="col-md-12">
+            <div class="p-1">
+              <label for="" class="formulario col-form-label-lg">Largura:</label>
+              <input id="largura" type="text" placeholder="Digite aqui" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="p-1">
+              <label for="" class="formulario">Altura:</label>
+              <input id="altura" type="text" placeholder="Digite aqui" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-1">
+              <label for="" class="formulario col-form-label-lg">Fechadura:</label>
+               <select id="select" class=" form-select form-select-lg" onChange="selectFechadura()">
+              <option>Selecione</option>
+              <option value="1">Bate-Fecha</option>
+              <option value="2">Com Chave</option>
+              <option value="3">Nenhum</option>
+            </select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-1">
+              <label for="" class="formulario col-form-label-lg">Cor do Kit:</label>
+               <select id="kit" class=" form-select form-select-lg" onChange="selectAdesivo()">
+              <option>Selecione</option>
+              <option value="1">Branco</option>
+              <option value="2">Preto</option>
+              <option value="3">Natural Fosco</option>
+              <option value="4">Bronze</option>
+            </select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-1">
+              <label for="colFormLabelLg" class="formulario col-form-label-lg">Adesivo:</label>
+               <select id="adesivo" class=" form-select form-select-lg" onChange="selectAdesivo()">
+              <option>Selecione</option>
+              <option value="1">Branco 1x1</option>
+              <option value="2">Branco 1,22x1</option>
+              <option value="3">Preto 1x1</option>
+              <option value="4">Preto 1,22x1</option>
+              <option value="5">Jateado 1x1</option>
+              <option value="6">Jateado 1,22x1</option>
+              <option value="7">Nenhum</option>
+            </select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-1">
+          <label class="formulario col-form-label-lg">Mão de Obra:</label>
+          <input type="number" id="mobra" class="form-control" placeholder="Digite aqui" />
+        </div>
+        </div>
+
+           <div class="col-md-6 text-center">
+            <button id="btn" class="calcular btn btn-success" style="border-radius: 15px;" onclick="calcular()">CALCULAR</button>
+          </div>
+           <div class="col-md-6 text-center">
+            <a id="limpar" class=" btn btn-link " onclick="apagar()" href="#">Limpar tudo</a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 m-auto d-flex justify-content-center align-items-center">
+          <div class="container_b 1 ">
+            <div id="final"  >
+              <label class="div">Gastos:</label>
+              <div id="gastos"> </div><hr>
+              <label class="div">Orçamento Final:</label>
+              <div id="porcentagem"></div><hr>
+            </div>
+          </div>
+        </div>
+  
+
+
+
+    </div>
+    </main>
+
+
+  <footer class="rodapé">
+
+  </footer>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/janela2fls.js"></script>
+
+
+</body>
+
+</html>

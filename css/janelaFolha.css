@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body {
+    background-color: #E8E7D2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+nav {
+    background: rgb(27, 69, 73);
+    background: linear-gradient(90deg, rgba(27, 69, 73, 1) 0%, rgba(27, 66, 70, 1) 13%, rgba(49, 135, 120, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 90px;
+}
+
+.nav-item {
+    color: #E8E7D2;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding-right: 60px;
+    text-align: 20px;
+}
+
+.calcular {
+    background-color: #2ecc71;
+    color: #E8E7D2;
+}
+
+input,
+label,
+option select,
+select.modelo,
+select.formulario2 {
+    margin-bottom: -10px;
+    height: 50px;
+    width: 270px;
+}
+
+h4.display-6 {
+    font-size: 150%;
+    margin-left: 25px;
+}
+
+h1 {
+    color: #1A4347;
+    font-size: 350%;
+    font-family: serif;
+    margin-left: 25px;
+}
+
+.formulario {
+    color: #1A4347;
+    font-size: 180%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+.calcular {
+    color: #E8E7D2;
+    background-color: #519548;
+    border: none;
+    height: 60px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 5px 5px;
+}
+
+a.limpar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 100%;
+    height: 90px;
+    color: red;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(27, 69, 73, 1) 0%, rgba(27, 66, 70, 1) 13%, rgba(49, 135, 120, 1) 100%);
+    width: 100%;
+    height: 50px;
+}
+
+.div {
+    color: #E8E7D2;
+    font-size: 130%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+
+.btn {
+    margin: 20px 30px;
+}
+
+.formulario-esquerda {
+    margin-left: -100px;
+}
+
+.p-1 {
+    margin-left: 1px;
+    margin-right: 5px;
+}
+
+.calcula-limpa {
+    display: flex;
+    margin-left: -100px;
+    justify-content: space-between;
+}
+.logo{
+margin-left: 22px;
+}
+.container_b{
+    background-color: #1A4347;
+    color: #E8E7D2;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    align-items:center;
+    font-style:oblique;
+
+
+}
+div.container_b{
+    margin-left: 18%;
+    margin-top: -80px;
+    font: Georgia, 'Times New Roman', Times, serif;
+
+}

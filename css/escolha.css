@@ -1,0 +1,19 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    background: rgb(26,67,71);
+    background: linear-gradient(90deg, rgba(26,67,71,1) 27%, rgba(52,165,137,1) 100%, rgba(168,192,48,1) 100%);
+}
+h1{
+    text-align: center;
+    color: azure;
+    margin: 5%;
+}
+.row{
+    width: 100%;
+   
+}
